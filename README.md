@@ -33,4 +33,4 @@ A collection of my weekly practice sessions where I gradually move beyond basic 
 * Different method types serve different responsibilities within a class design.
 
 #### Status
-#Completed ✅
+<b>Completed ✅</b>
