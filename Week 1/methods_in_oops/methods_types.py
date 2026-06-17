@@ -24,6 +24,10 @@ class Employee:
     def from_string(cls, data: str) -> str:
         name, dept, sal = data.split("-")
         return cls(name, dept, int(sal))
+    def give_raise(self, amount: int) -> None:
+        self.salary += amount
+
+    
 
     
         
@@ -35,3 +39,6 @@ print(Employee.is_valid_salary(15000)) # False
 print(Employee.is_valid_salary(45000)) # True
 print(e1)                              # Arjun | Finance | ₹45000
 print(e2)
+
+print(e1.give_raise(7900))
+print(e1)
